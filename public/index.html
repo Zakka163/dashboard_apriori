@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pola Data BPS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #f1f5f9; color: #1e293b; font-size: 13px; }
+
+    /* Header */
+    .hdr {
+      background: #fff; border-bottom: 1px solid #e2e8f0;
+      padding: 10px 20px; display: flex; align-items: center; gap: 14px;
+    }
+    .hdr-title { font-size: 13px; font-weight: 700; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; background: #94a3b8; margin-left: auto; flex-shrink: 0; }
+
+    /* Controls */
+    .ctrl {
+      background: #fff; border-bottom: 1px solid #e2e8f0;
+      padding: 8px 20px; display: flex; align-items: center; gap: 10px;
+    }
+    .ctrl label { font-size: 11px; color: #94a3b8; }
+    .ctrl input {
+      width: 52px; padding: 4px 7px; border: 1px solid #e2e8f0;
+      border-radius: 5px; font-size: 12px; font-family: inherit;
+    }
+    .ctrl input:focus { outline: none; border-color: #3b82f6; }
+    .ctrl-sep { width: 1px; height: 16px; background: #e2e8f0; }
+    .btn {
+      margin-left: auto; background: #1e40af; color: #fff; border: none;
+      padding: 6px 16px; border-radius: 6px; font-size: 12px; font-weight: 600;
+      cursor: pointer; font-family: inherit;
+    }
+    .btn:hover { background: #1d4ed8; }
+    .btn:disabled { opacity: .5; cursor: not-allowed; }
+
+    /* Page */
+    .page { max-width: 1160px; margin: 0 auto; padding: 14px 14px; }
+
+    /* Stats */
+    .stats { display: flex; gap: 10px; margin-bottom: 14px; }
+    .sbox { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 14px; }
+    .sbox-val { font-size: 1.5rem; font-weight: 700; color: #1e40af; }
+    .sbox-lbl { font-size: 10px; color: #94a3b8; margin-top: 2px; }
+
+    /* Charts */
+    .charts { display: grid; grid-template-columns: 56% 1fr; grid-template-rows: auto auto; gap: 12px; margin-bottom: 14px; }
+    .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+    .card.span2 { grid-row: 1 / 3; }
+    .card-h { padding: 9px 14px; border-bottom: 1px solid #f1f5f9; }
+    .card-h h3 { font-size: 11.5px; font-weight: 700; color: #475569; }
+    .card-b { padding: 10px; }
+    .net-wrap { position: relative; height: 430px; }
+    #net-svg { width: 100%; height: 100%; display: block; }
+    .net-ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #94a3b8; pointer-events: none; }
+    .cw { height: 186px; position: relative; }
+
+    /* Table */
+    .tcard { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+    .tcard-h { padding: 9px 14px; border-bottom: 1px solid #f1f5f9; display: flex; align-items: center; gap: 8px; }
+    .tcard-h h3 { font-size: 11.5px; font-weight: 700; color: #475569; }
+    .tcnt { font-size: 10px; color: #94a3b8; }
+    .tw { overflow-x: auto; }
+    table.t { width: 100%; border-collapse: collapse; }
+    table.t thead th {
+      background: #f8fafc; padding: 7px 12px; font-size: 10.5px;
+      font-weight: 700; color: #94a3b8; text-align: left; border-bottom: 1px solid #e2e8f0;
+    }
+    table.t tbody tr { border-bottom: 1px solid #f8fafc; cursor: pointer; }
+    table.t tbody tr:hover { background: #fafbff; }
+    table.t tbody tr.hl  { background: #eff6ff; }
+    table.t td { padding: 8px 12px; font-size: 12px; }
+    .tag { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .thi { background: #dbeafe; color: #1e3a8a; }
+    .tlo { background: #fee2e2; color: #7f1d1d; }
+    .lbadge { display: inline-block; padding: 2px 7px; border-radius: 99px; font-size: 11px; font-weight: 700; }
+    .lhi { background: #d1fae5; color: #065f46; }
+    .lmd { background: #fef9c3; color: #713f12; }
+    .llo { background: #fee2e2; color: #991b1b; }
+
+    /* Panel */
+    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.15); z-index: 199; opacity: 0; pointer-events: none; transition: opacity .2s; }
+    .overlay.on { opacity: 1; pointer-events: all; }
+    .panel { position: fixed; top: 0; right: -400px; width: 380px; height: 100vh; background: #fff; border-left: 1px solid #e2e8f0; z-index: 200; display: flex; flex-direction: column; transition: right .22s ease; box-shadow: -4px 0 20px rgba(0,0,0,.07); }
+    .panel.on { right: 0; }
+    .ph { padding: 12px 14px; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; gap: 8px; }
+    .ph-t { flex: 1; font-size: 12px; font-weight: 700; line-height: 1.4; }
+    .ph-s { font-size: 10.5px; color: #94a3b8; margin-top: 2px; }
+    .pclose { width: 24px; height: 24px; border: 1px solid #e2e8f0; border-radius: 5px; background: #f8fafc; cursor: pointer; font-size: 14px; display: grid; place-items: center; color: #64748b; }
+    .pclose:hover { background: #f1f5f9; }
+    .ptabs { display: none; border-bottom: 1px solid #e2e8f0; }
+    .ptabs.on { display: flex; }
+    .ptab { flex: 1; padding: 8px; font-size: 11px; font-weight: 600; text-align: center; cursor: pointer; color: #94a3b8; border-bottom: 2px solid transparent; }
+    .ptab.on { color: #1e40af; border-bottom-color: #1e40af; }
+    .pbody { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+    .pbody.hide { display: none; }
+
+    /* Panel rule card */
+    .pcard { border: 1px solid #e2e8f0; border-radius: 8px; padding: 11px 12px; }
+    .pcrow { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+    .pcarrow { color: #cbd5e1; font-size: 11px; }
+    .pmets { display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; margin-bottom: 8px; }
+    .pmet { background: #f8fafc; border-radius: 6px; padding: 7px 4px; text-align: center; }
+    .pmet-v { font-size: 1rem; font-weight: 700; display: block; }
+    .pmet-l { font-size: 9.5px; color: #94a3b8; margin-top: 1px; display: block; }
+    .ptxt { font-size: 11px; color: #64748b; line-height: 1.6; border-top: 1px solid #f1f5f9; padding-top: 8px; }
+
+    /* DB data table */
+    .dtwrap { overflow-x: auto; max-height: 360px; overflow-y: auto; }
+    table.dt { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+    table.dt thead th { background: #f8fafc; padding: 6px 9px; font-size: 10px; font-weight: 700; color: #94a3b8; text-align: left; position: sticky; top: 0; border-bottom: 1px solid #e2e8f0; white-space: nowrap; }
+    table.dt tbody tr { border-bottom: 1px solid #f8fafc; }
+    table.dt tbody tr.mrow { background: #f0fdf4; }
+    table.dt td { padding: 5px 9px; }
+    .chi { background: #dbeafe; color: #1e3a8a; border-radius: 3px; padding: 1px 5px; font-size: 10px; font-weight: 600; }
+    .clo { background: #fee2e2; color: #7f1d1d; border-radius: 3px; padding: 1px 5px; font-size: 10px; font-weight: 600; }
+    .dbadge { font-size: 10px; font-weight: 600; color: #166534; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 99px; padding: 2px 9px; display: inline-block; margin-bottom: 8px; }
+
+    /* Loading */
+    .spin { width: 18px; height: 18px; border-radius: 50%; border: 2px solid #e2e8f0; border-top-color: #1e40af; animation: sp .7s linear infinite; }
+    .sspin { display: inline-block; width: 11px; height: 11px; border-radius: 50%; border: 2px solid rgba(255,255,255,.4); border-top-color: #fff; animation: sp .7s linear infinite; vertical-align: middle; margin-right: 4px; }
+    @keyframes sp { to { transform: rotate(360deg); } }
+
+    @media (max-width: 700px) {
+      .charts { grid-template-columns: 1fr; }
+      .card.span2 { grid-row: auto; }
+      .panel { width: 100%; right: -100%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-title">Data BPS — Analisis Asosiasi</div>
+  <div class="dot" id="dot"></div>
+</div>
+
+<div class="ctrl">
+  <label>Support %</label>
+  <input id="isup" type="number" value="10" min="1" max="60" />
+  <div class="ctrl-sep"></div>
+  <label>Confidence %</label>
+  <input id="icnf" type="number" value="70" min="50" max="100" step="5" />
+  <button class="btn" id="btn" onclick="run()">Jalankan</button>
+</div>
+
+<div class="page">
+
+  <div class="stats">
+    <div class="sbox"><div class="sbox-val" id="sv-pola">—</div><div class="sbox-lbl">Pola</div></div>
+    <div class="sbox"><div class="sbox-val" id="sv-data">—</div><div class="sbox-lbl">Data</div></div>
+    <div class="sbox"><div class="sbox-val" id="sv-lift">—</div><div class="sbox-lbl">Rata-rata Lift</div></div>
+  </div>
+
+  <div class="charts">
+
+    <div class="card span2">
+      <div class="card-h"><h3>Network</h3></div>
+      <div class="card-b" style="padding:0">
+        <div class="net-wrap" id="nwrap">
+          <div class="net-ph" id="nph">Tekan Jalankan</div>
+          <svg id="net-svg"></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-h"><h3>Confidence Tertinggi</h3></div>
+      <div class="card-b"><div class="cw"><canvas id="bcv"></canvas></div></div>
+    </div>
+
+    <div class="card">
+      <div class="card-h"><h3>Confidence vs Lift</h3></div>
+      <div class="card-b"><div class="cw"><canvas id="scv"></canvas></div></div>
+    </div>
+
+  </div>
+
+  <div class="tcard">
+    <div class="tcard-h">
+      <h3>Semua Pola</h3>
+      <span class="tcnt" id="tcnt"></span>
+    </div>
+    <div class="tw">
+      <table class="t">
+        <thead><tr>
+          <th>Jika</th><th></th><th>Maka</th>
+          <th>Support</th><th>Confidence</th><th>Lift</th>
+        </tr></thead>
+        <tbody id="tb">
+          <tr><td colspan="6" style="padding:32px;text-align:center;color:#94a3b8">Jalankan analisis</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- Panel -->
+<div class="overlay" id="ov" onclick="closeP()"></div>
+<div class="panel" id="panel">
+  <div class="ph">
+    <div>
+      <div class="ph-t" id="pt"></div>
+      <div class="ph-s" id="ps"></div>
+    </div>
+    <div class="pclose" onclick="closeP()">&times;</div>
+  </div>
+  <div class="ptabs" id="ptabs">
+    <div class="ptab on"  id="tab-a" onclick="swTab('a')">Analisis</div>
+    <div class="ptab"     id="tab-d" onclick="swTab('d')">Data</div>
+  </div>
+  <div class="pbody" id="pb-a"></div>
+  <div class="pbody hide" id="pb-d"></div>
+</div>
+
+<script>
+const API = 'http://localhost:3001/api/apriori-cl';
+let allRules = [], txDetail = [], barI = null, scaI = null;
+
+const LBL = { kemiskinan:'Kemiskinan', puskesmas:'Puskesmas', dokter:'Dokter', murid_sd:'Murid SD', panjang_jalan:'Jalan', lowongan_kerja:'Lowongan', tb_paru:'TB Paru', kepadatan_penduduk:'Kepadatan' };
+
+const base  = s => s.replace(/_Tinggi|_Rendah/g,'');
+const lvl   = s => s.endsWith('_Tinggi') ? 'Tinggi' : 'Rendah';
+const lbl   = s => LBL[base(s)] || base(s).replace(/_/g,' ');
+const lclr  = v => v>=1.5?'#10b981':v>=1?'#f59e0b':'#ef4444';
+const lcls  = v => v>=1.5?'lhi':v>=1?'lmd':'llo';
+const isHi  = s => s.endsWith('_Tinggi');
+const tag   = s => `<span class="tag ${isHi(s)?'thi':'tlo'}">${lbl(s)}</span>`;
+const fmt   = n => n===undefined||n===null?'—':n>=1e6?(n/1e6).toFixed(1)+'Jt':n>=1e3?(n/1e3).toFixed(1)+'Rb':n.toLocaleString('id-ID',{maximumFractionDigits:1});
+
+// Connection
+(async()=>{
+  try{ const r=await fetch(API+'?support=0.1&confidence=0.7'); if(r.ok) document.getElementById('dot').style.background='#10b981'; else throw 0; }
+  catch{ document.getElementById('dot').style.background='#ef4444'; }
+})();
+
+/* ── Panel ── */
+function openP(title, sub, aHtml, dHtml){
+  document.getElementById('pt').textContent = title;
+  document.getElementById('ps').textContent = sub||'';
+  document.getElementById('pb-a').innerHTML = aHtml;
+  document.getElementById('pb-d').innerHTML = dHtml||'';
+  document.getElementById('ptabs').classList.toggle('on', !!dHtml);
+  swTab('a');
+  document.getElementById('panel').classList.add('on');
+  document.getElementById('ov').classList.add('on');
+}
+function closeP(){
+  document.getElementById('panel').classList.remove('on');
+  document.getElementById('ov').classList.remove('on');
+  document.querySelectorAll('#tb tr.hl').forEach(r=>r.classList.remove('hl'));
+  d3.selectAll('#net-svg circle').attr('fill','#eff6ff').attr('stroke','#3b82f6');
+}
+function swTab(t){
+  document.getElementById('pb-a').classList.toggle('hide', t!=='a');
+  document.getElementById('pb-d').classList.toggle('hide', t!=='d');
+  document.getElementById('tab-a').classList.toggle('on', t==='a');
+  document.getElementById('tab-d').classList.toggle('on', t==='d');
+}
+
+/* ── Build panel HTML ── */
+function ruleCard(r, compact){
+  const liftNote = r.lift>=1.5?'Asosiasi signifikan.':r.lift>=1?'Asosiasi moderat.':'Asosiasi lemah.';
+  if(compact) return `
+    <div class="pcard">
+      <div class="pcrow">${tag(r.antecedent)}<span class="pcarrow">→</span>${tag(r.consequent)}</div>
+      <div class="pmets">
+        <div class="pmet"><span class="pmet-v" style="color:#1e40af">${r.support}%</span><span class="pmet-l">Support</span></div>
+        <div class="pmet"><span class="pmet-v" style="color:#6d28d9">${r.confidence}%</span><span class="pmet-l">Confidence</span></div>
+        <div class="pmet"><span class="pmet-v" style="color:${lclr(r.lift||0)}">${r.lift??'—'}</span><span class="pmet-l">Lift</span></div>
+      </div>
+    </div>`;
+  return `
+    <div class="pcard">
+      <div class="pcrow">${tag(r.antecedent)}<span class="pcarrow">→</span>${tag(r.consequent)}</div>
+      <div class="pmets">
+        <div class="pmet"><span class="pmet-v" style="color:#1e40af">${r.support}%</span><span class="pmet-l">Support</span></div>
+        <div class="pmet"><span class="pmet-v" style="color:#6d28d9">${r.confidence}%</span><span class="pmet-l">Confidence</span></div>
+        <div class="pmet"><span class="pmet-v" style="color:${lclr(r.lift||0)}">${r.lift??'—'}</span><span class="pmet-l">Lift</span></div>
+      </div>
+      <div class="ptxt">${liftNote} Di ${r.support}% wilayah, ${lbl(r.antecedent)} ${lvl(r.antecedent).toLowerCase()} berasosiasi dengan ${lbl(r.consequent)} ${lvl(r.consequent).toLowerCase()}.</div>
+    </div>`;
+}
+
+function dbHtml(ant, con){
+  if(!txDetail.length) return '<div style="padding:20px;text-align:center;color:#94a3b8">Data belum dimuat</div>';
+  const ab=base(ant), cb=base(con);
+  const antRows = txDetail.filter(t=>t.values[ab]?.kategori===ant);
+  const match   = antRows.filter(t=>t.values[cb]?.kategori===con);
+  const pct     = antRows.length?((match.length/antRows.length)*100).toFixed(1):'—';
+  const rows = antRows.map(t=>{
+    const ok = t.values[cb]?.kategori===con;
+    const av = t.values[ab]?.jumlah, cv = t.values[cb]?.jumlah;
+    const ahi = t.values[ab]?.kategori?.endsWith('_Tinggi');
+    const chi = t.values[cb]?.kategori?.endsWith('_Tinggi');
+    return `<tr class="${ok?'mrow':''}">
+      <td>${t.provinsi}</td><td style="color:#94a3b8">${t.tahun}</td>
+      <td><span class="${ahi?'chi':'clo'}">${fmt(av)}</span></td>
+      <td><span class="${chi?'chi':'clo'}">${fmt(cv)}</span></td>
+      <td style="text-align:center;color:${ok?'#059669':'#cbd5e1'}">${ok?'✓':'–'}</td></tr>`;
+  }).join('');
+  return `<span class="dbadge">${match.length} / ${antRows.length} wilayah (${pct}%)</span>
+  <div class="dtwrap"><table class="dt">
+    <thead><tr><th>Provinsi</th><th>Tahun</th><th>${LBL[ab]||ab}</th><th>${LBL[cb]||cb}</th><th>OK</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>`;
+}
+
+function indDbHtml(id){
+  if(!txDetail.length) return '';
+  const rows = txDetail.map(t=>{
+    const v=t.values[id]; if(!v) return '';
+    const hi=v.kategori?.endsWith('_Tinggi');
+    return `<tr><td>${t.provinsi}</td><td style="color:#94a3b8">${t.tahun}</td>
+      <td>${fmt(v.jumlah)}</td><td><span class="${hi?'chi':'clo'}">${hi?'Tinggi':'Rendah'}</span></td></tr>`;
+  }).filter(Boolean).join('');
+  return `<div class="dtwrap"><table class="dt">
+    <thead><tr><th>Provinsi</th><th>Tahun</th><th>Nilai</th><th>Kategori</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>`;
+}
+
+function hiRule(rule){
+  const key=`${rule.antecedent}→${rule.consequent}`;
+  document.querySelectorAll('#tb tr[data-k]').forEach(tr=>{
+    if(tr.dataset.k===key){ tr.classList.add('hl'); tr.scrollIntoView({behavior:'smooth',block:'nearest'}); }
+    else tr.classList.remove('hl');
+  });
+}
+function hiInd(id){
+  document.querySelectorAll('#tb tr[data-k]').forEach(tr=>{
+    const [a,,b]=tr.dataset.k?.split('→')||[];
+    tr.classList.toggle('hl', a&&b&&(base(a)===id||base(b)===id));
+  });
+}
+
+/* ── Run ── */
+async function run(){
+  const btn=document.getElementById('btn');
+  btn.disabled=true; btn.innerHTML='<span class="sspin"></span>Proses…';
+  closeP();
+  const nph=document.getElementById('nph');
+  nph.innerHTML='<div class="spin"></div>'; nph.style.display='flex';
+  document.getElementById('net-svg').innerHTML='';
+  try{
+    const sup=(parseFloat(document.getElementById('isup').value)||10)/100;
+    const cnf=(parseFloat(document.getElementById('icnf').value)||70)/100;
+    const res=await fetch(`${API}?support=${sup}&confidence=${cnf}`);
+    const d=await res.json();
+    if(d.status!=='success') throw new Error(d.message);
+    allRules=d.rules; txDetail=d.transactions_detail||[];
+    const avg=allRules.length?(allRules.reduce((s,r)=>s+(r.lift||0),0)/allRules.length).toFixed(2):'—';
+    document.getElementById('sv-pola').textContent=d.total_rules_found;
+    document.getElementById('sv-data').textContent=d.total_transactions||'—';
+    document.getElementById('sv-lift').textContent=avg;
+    nph.style.display='none';
+    renderNet(allRules, d.indicators_used||[]);
+    renderBar(allRules);
+    renderSca(allRules);
+    renderTbl(allRules);
+  }catch(e){ nph.innerHTML=e.message; }
+  finally{ btn.disabled=false; btn.innerHTML='Jalankan'; }
+}
+
+/* ── Network ── */
+function renderNet(rules, inds){
+  const wrap=document.getElementById('nwrap');
+  const W=wrap.clientWidth||580, H=wrap.clientHeight||430;
+  const svg=d3.select('#net-svg'); svg.selectAll('*').remove(); svg.attr('viewBox',`0 0 ${W} ${H}`);
+  const nids=new Set(inds); rules.forEach(r=>{ nids.add(base(r.antecedent)); nids.add(base(r.consequent)); });
+  const nodes=[...nids].map(id=>({id}));
+  const lmap={};
+  rules.filter(r=>!r.is_multi).forEach(r=>{
+    const a=base(r.antecedent),b=base(r.consequent), k=[a,b].sort().join('|');
+    if(!lmap[k]||r.confidence>lmap[k].confidence) lmap[k]={source:a,target:b,confidence:r.confidence,lift:r.lift||1};
+  });
+  const links=Object.values(lmap);
+  const deg={}; nodes.forEach(n=>deg[n.id]=0);
+  links.forEach(l=>{ deg[l.source]=(deg[l.source]||0)+1; deg[l.target]=(deg[l.target]||0)+1; });
+  const sim=d3.forceSimulation(nodes)
+    .force('link',d3.forceLink(links).id(d=>d.id).distance(105).strength(0.5))
+    .force('charge',d3.forceManyBody().strength(-400))
+    .force('center',d3.forceCenter(W/2,H/2))
+    .force('collide',d3.forceCollide(38));
+  svg.append('defs').append('marker').attr('id','ar').attr('viewBox','0 -4 9 8').attr('refX',26).attr('refY',0).attr('markerWidth',5).attr('markerHeight',5).attr('orient','auto').append('path').attr('d','M0,-4L9,0L0,4').attr('fill','#cbd5e1');
+  const g=svg.append('g');
+  const lk=g.append('g').selectAll('line').data(links).enter().append('line')
+    .attr('stroke',d=>lclr(d.lift)).attr('stroke-width',d=>Math.max(1.5,(d.confidence-60)/16))
+    .attr('stroke-opacity',0.6).attr('marker-end','url(#ar)');
+  lk.append('title').text(d=>{ const sl=typeof d.source==='object'?d.source.id:d.source, tl=typeof d.target==='object'?d.target.id:d.target; return `${LBL[sl]} → ${LBL[tl]}   ${d.confidence}%`; });
+  const ng=g.append('g').selectAll('g').data(nodes).enter().append('g').style('cursor','pointer')
+    .call(d3.drag().on('start',(e,d)=>{ if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; }).on('drag',(e,d)=>{ d.fx=e.x; d.fy=e.y; }).on('end',(e,d)=>{ if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+  ng.append('circle').attr('r',d=>Math.max(20,14+(deg[d.id]||0)*4)).attr('fill','#eff6ff').attr('stroke','#3b82f6').attr('stroke-width',1.5);
+  ng.append('text').attr('text-anchor','middle').attr('dy','0.35em').attr('font-size','9px').attr('font-weight','600').attr('fill','#1e3a8a').attr('pointer-events','none').text(d=>(LBL[d.id]||d.id).substring(0,8));
+  ng.on('click',(e,d)=>{
+    e.stopPropagation();
+    ng.select('circle').attr('fill','#eff6ff').attr('stroke','#3b82f6');
+    d3.select(e.currentTarget).select('circle').attr('fill','#bfdbfe').attr('stroke','#1d4ed8');
+    const rel=allRules.filter(r=>base(r.antecedent)===d.id||base(r.consequent)===d.id);
+    const aHtml=rel.length?rel.map(r=>ruleCard(r,true)).join(''):'<div style="padding:20px;text-align:center;color:#94a3b8">Tidak ada pola</div>';
+    openP(LBL[d.id]||d.id, `${rel.length} pola`, aHtml, indDbHtml(d.id));
+    hiInd(d.id);
+  });
+  svg.on('click',()=>closeP());
+  svg.call(d3.zoom().scaleExtent([0.4,3]).on('zoom',e=>g.attr('transform',e.transform)));
+  sim.on('tick',()=>{
+    lk.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    ng.attr('transform',d=>`translate(${d.x||0},${d.y||0})`);
+  });
+  // legend
+  const leg=svg.append('g').attr('transform',`translate(10,${H-52})`);
+  [['≥1.5','#10b981'],['1–1.5','#f59e0b'],['<1','#ef4444']].forEach(([l,c],i)=>{
+    const r=leg.append('g').attr('transform',`translate(0,${i*17})`);
+    r.append('line').attr('x1',0).attr('y1',6).attr('x2',16).attr('y2',6).attr('stroke',c).attr('stroke-width',2);
+    r.append('text').attr('x',20).attr('y',9.5).attr('font-size','9.5px').attr('fill','#94a3b8').text('Lift '+l);
+  });
+}
+
+/* ── Bar ── */
+function renderBar(rules){
+  const top=[...rules].filter(r=>!r.is_multi).sort((a,b)=>b.confidence-a.confidence).slice(0,10);
+  if(barI) barI.destroy();
+  barI=new Chart(document.getElementById('bcv'),{
+    type:'bar',
+    data:{ labels:top.map(r=>`${lbl(r.antecedent)} → ${lbl(r.consequent)}`),
+      datasets:[{ data:top.map(r=>r.confidence), backgroundColor:top.map(r=>lclr(r.lift||1)+'99'), borderColor:top.map(r=>lclr(r.lift||1)), borderWidth:1, borderRadius:3 }]
+    },
+    options:{ indexAxis:'y', responsive:true, maintainAspectRatio:false, animation:false,
+      plugins:{ legend:{display:false}, tooltip:{callbacks:{label:c=>{ const r=top[c.dataIndex]; return [`${c.parsed.x}%`,`Lift ${r.lift}`]; }}} },
+      onClick:(_,els)=>{ if(els[0]){ const r=top[els[0].index]; openP(`${lbl(r.antecedent)} → ${lbl(r.consequent)}`, `${r.support}% · ${r.confidence}% · ${r.lift}`, ruleCard(r,false), dbHtml(r.antecedent,r.consequent)); hiRule(r); } },
+      scales:{ x:{min:60,max:100,ticks:{font:{size:9.5},callback:v=>v+'%'},grid:{color:'#f8fafc'}}, y:{ticks:{font:{size:9.5},color:'#475569'},grid:{display:false}} }
+    }
+  });
+}
+
+/* ── Scatter ── */
+function renderSca(rules){
+  const pts=rules.filter(r=>!r.is_multi).map(r=>({x:r.confidence,y:r.lift||1,r:Math.max(4,r.support/5.5),rule:r}));
+  const ds=[{label:'≥1.5',data:pts.filter(p=>p.y>=1.5),bg:'#10b98199'},{label:'1–1.5',data:pts.filter(p=>p.y>=1&&p.y<1.5),bg:'#f59e0b99'},{label:'<1',data:pts.filter(p=>p.y<1),bg:'#ef444499'}];
+  if(scaI) scaI.destroy();
+  scaI=new Chart(document.getElementById('scv'),{
+    type:'bubble',
+    data:{datasets:ds.map(d=>({...d,backgroundColor:d.bg,borderColor:'transparent'}))},
+    options:{ responsive:true, maintainAspectRatio:false, animation:false,
+      plugins:{ legend:{labels:{font:{size:9.5},boxWidth:8}}, tooltip:{callbacks:{label:c=>{ const p=c.raw; return [`${lbl(p.rule.antecedent)} → ${lbl(p.rule.consequent)}`,`${p.x}% · ${p.y}`]; }}} },
+      onClick:(_,els)=>{ if(els[0]){ const p=scaI.data.datasets[els[0].datasetIndex].data[els[0].index]; openP(`${lbl(p.rule.antecedent)} → ${lbl(p.rule.consequent)}`, `${p.rule.support}% · ${p.rule.confidence}% · ${p.rule.lift}`, ruleCard(p.rule,false), dbHtml(p.rule.antecedent,p.rule.consequent)); hiRule(p.rule); } },
+      scales:{ x:{title:{display:false},min:60,max:100,grid:{color:'#f8fafc'},ticks:{font:{size:9.5},callback:v=>v+'%'}}, y:{title:{display:false},grid:{color:'#f8fafc'},ticks:{font:{size:9.5}}} }
+    }
+  });
+}
+
+/* ── Table ── */
+function renderTbl(rules){
+  document.getElementById('tcnt').textContent=rules.length+' pola';
+  const tb=document.getElementById('tb');
+  if(!rules.length){ tb.innerHTML='<tr><td colspan="6" style="padding:24px;text-align:center;color:#94a3b8">Tidak ada pola</td></tr>'; return; }
+  tb.innerHTML='';
+  rules.forEach(r=>{
+    const ab=base(r.antecedent), cb=base(r.consequent);
+    const al=lvl(r.antecedent), cl=lvl(r.consequent);
+    const tr=document.createElement('tr');
+    tr.dataset.k=`${r.antecedent}→${r.consequent}`;
+    tr.innerHTML=`
+      <td><span class="tag ${al==='Tinggi'?'thi':'tlo'}">${LBL[ab]||ab}</span></td>
+      <td style="color:#cbd5e1;text-align:center">→</td>
+      <td><span class="tag ${cl==='Tinggi'?'thi':'tlo'}">${LBL[cb]||cb}</span></td>
+      <td style="color:#64748b">${r.support}%</td>
+      <td style="font-weight:600">${r.confidence}%</td>
+      <td><span class="lbadge ${lcls(r.lift||0)}">${r.lift??'—'}</span></td>`;
+    tr.onclick=()=>{ openP(`${lbl(r.antecedent)} → ${lbl(r.consequent)}`, `${r.support}% · ${r.confidence}% · ${r.lift}`, ruleCard(r,false), dbHtml(r.antecedent,r.consequent)); hiRule(r); };
+    tb.appendChild(tr);
+  });
+}
+</script>
+</body>
+</html>

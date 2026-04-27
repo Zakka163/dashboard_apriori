@@ -1,0 +1,21 @@
+{
+  "name": "dashboard-apriori",
+  "version": "1.0.0",
+  "description": "Dashboard Apriori with Supabase",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-apriori": "^1.0.0",
+    "postgres": "^3.4.9"
+  }
+}

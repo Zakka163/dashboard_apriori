@@ -1,0 +1,1674 @@
+[
+    {
+      "table_schema": "api_bps_biaya_tenaga_kerja",
+      "table_name": "ph_mnmm_rgnlprpns"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "jmlh_plnggn_prshn_r_brsh"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "jmlh_r_brsh_yng_dslrkn_prshn_r_brsh"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "kpsts_prdks_ptnsl_prshn_r_brsh_mnrt_prvns_"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "kpsts_trpsng_pln_mnrt_jns_pmbngkt_lstrk"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "kpsts_trpsng_pmbngkt_lstrk_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "ndktr_pntng_prshn_lstrk"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "ndktr_pntng_prshn_r_brsh"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "nl_r_brsh_yng_dslrkn"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "plnggn_prshn_lstrk_ngr"
+    },
+    {
+      "table_schema": "api_bps_energi",
+      "table_name": "rs_lktrfks"
+    },
+    {
+      "table_schema": "api_bps_gender_kelompok_populasi",
+      "table_name": "ndks_pmbngnn_gndr_pg"
+    },
+    {
+      "table_schema": "api_bps_gender_kelompok_populasi",
+      "table_name": "ndks_pmbrdyn_gndr_dg"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_blnn_m_t_m"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_blnn_m_t_m_38_prvns_2022100"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_hrg_kspr_2023100_y_n_y"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_hrg_mpr_2023100_y_n_y"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_hrg_prdsn_y_n_y_2016100"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_mnrt_klmpk_pnglrn"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_thn_k_thn_y__y"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_thn_klndr_y_t_d_150_kbptnkt_2022100"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nfls_thnn_y_n_y_38_prvns_2022100"
+    },
+    {
+      "table_schema": "api_bps_harga_harga",
+      "table_name": "nl_tkr_ptn"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_khutanan_perikanan",
+      "table_name": "prdks_prkbnn_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_khutanan_perikanan",
+      "table_name": "prdks_prkbnn_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "jmlh_prdks_dgng_kmbng_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "jmlh_prdks_dgng_sp_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "jmlh_prdks_dgng_sp_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "ppls_nggs_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "ppls_nggs_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "ppls_trnk_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "ppls_trnk_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "prdks_bh_dn_syrn_thnn_mnrt_jns_tnmn"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "prdks_dgng_nggs_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "prdks_dgng_nggs_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "prdks_tlr_nggs_dn_ss_sp_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_hortikultura_perkebunan_peternakan",
+      "table_name": "prdks_tlr_nggs_dn_ss_sp_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "bnykny_rmh_tngg"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "dpndncy_rt_hsl_pryks_pnddk"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "jmlh_pnddk_mnrt_klmpk_mr_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "jmlh_pnddk_mnrt_klmpk_mr_dn_jns_klmn_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "jmlh_prcrn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "jmlh_prcrn_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "jmlh_prcrn_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "jmlh_prcrn_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "kpdtn_pnddk_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "lj_prtmbhn_dn_kpdtn_pnddk_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "lj_prtmbhn_dn_kpdtn_pnddk_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "lj_prtmbhn_dn_kpdtn_pnddk_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "lj_prtmbhn_dn_kpdtn_pnddk_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "mgrs_smr_hdp"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "nkh_dn_cr_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "nkh_dn_cr_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "nkh_dn_cr_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "nkh_dn_cr_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "prprs_pnddk_50_thn_k_ts"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "prsnts_pnddk_yng_brprgn_dngn_jrk_100_km_pp_mnrt_wlyh"
+    },
+    {
+      "table_schema": "api_bps_kependudukan_migrasi",
+      "table_name": "rs_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "fslts_kshtn"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_ds_klrhn_yng_mmlk_srn_kshtn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_ds_klrhn_yng_mmlk_srn_kshtn_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_kss_pnykt_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_kss_pnykt_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_kss_pnykt_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_kss_pnykt_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_rmh_skt_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_rmh_skt_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_rmh_skt_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_rmh_skt_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_tng_kshtn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_tng_kshtn_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_tng_kshtn_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "jmlh_tng_kshtn_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "mnss"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "ndks_khss_pnngnn_stntng_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "ndks_kshtn"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "ngk_hrpn_hdp_hh_mnrt_kbptnkt_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "ngk_hrpn_hdp_hh_mnrt_prvns_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "ngk_kmtn_by_kb_pr_1000_klhrn_hdp_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prnts_wnt_yng_brstts_kwn_dn_mnggnkn_kb_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prsnts_kbptn_kt_yng_mncp_80_mnss_dsr_lngkp_pd_by"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prsnts_nk_mr_0_59_bln_blt_yng_prnh_mndpt_mnss_cmpk_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prsnts_nk_mr_12_23_bln_yng_mnrm_mnss_dsr_lngkp_dngn_tngkt_ksjht"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prsnts_nk_mr_12_23_bln_yng_mnrm_mnss_dsr_lngkp_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prsts_pnddk_yg_mmlk_jmn_kshtn_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prvlns_blt_gz_brk_mnrt_prvns_d_ndns_psg"
+    },
+    {
+      "table_schema": "api_bps_kesehatan",
+      "table_name": "prvlns_blt_gz_krng_mnrt_prvns_d_ndns_psg"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_pgw_ngr_spl_mnrt_jbtn_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_pgw_ngr_spl_mnrt_jbtn_dn_jns_klmn_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_pgw_ngr_spl_mnrt_tngkt_kpngktn_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_pgw_ngr_spl_mnrt_tngkt_kpngktn_dn_jns_klmn_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_pgw_pmrnth_dngn_prjnjn_krj"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_pgw_pmrnth_dngn_prjnjn_krj_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_prtr_spl_ngr_sn_mnrt_jbtn_jns_sn_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_prtr_spl_ngr_sn_mnrt_jbtn_jns_sn_dn_jns_klmn_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_prtr_spl_ngr_sn_mnrt_tngkt_pnddkn_jns_sn_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "jmlh_prtr_spl_ngr_sn_mnrt_tngkt_pnddkn_jns_sn_dn_jns_klmn_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "pnglrn_ntk_lynn_pkk_pnddkn_kshtn_dn_prlndngn_ssl_sbg_prsnts_dr_"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "prprs_nggrn_rst_pmrnth_trhdp_pdb"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "prprs_pnglrn_tm_pmrnth_trhdp_nggrn_yng_dstj"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "prprs_rlss_pndptn_pmrnth_trhdp_prdk_dmstk_brt"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_kbptn_kt_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_kbptn_kt_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_lks_jmlh_nvsts"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_lks_jmlh_pryk"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pndptn_ngr"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnglrn_ngr_kngn"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnglrn_pmrnth_kbptnkt_slrh_ndns_mnrt_jns_pnglrn_rncn_2022"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnglrn_pmrnth_prvns_slrh_ndns_mnrt_jns_pnglrn_rncn_2022"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnrmn_dn_pnglrn_pmrnth_ds_slrh_ndns_frmt_br"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnrmn_pmrnth_kbptnkt_slrh_ndns"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnrmn_pmrnth_kbptnkt_slrh_ndns_mnrt_jns_pnrmn_rncn_2022"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "rlss_pnrmn_pmrnth_prvns_slrh_ndns_mnrt_jns_pnrmn_rncn_2022"
+    },
+    {
+      "table_schema": "api_bps_keuangan_pemerintah_fiskal",
+      "table_name": "tbl_nggrn_blnj_pmrnth_pst_brdsrkn_fngs"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "dmns_kpsn_hdp_ndks_kbhgn"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "dmns_mkn_hdp_ndks_kbhgn"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "jmlh_dn_prsnts_pnddk_mskn_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "jmlh_dn_prsnts_pnddk_mskn_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "mtd_br_ndks_pmbngnn_mns_pm_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "ndks_dmkrs_ndns_d_mnrt_ndktr"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "ndks_dmkrs_ndns_d_mnrt_vrbl"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "ndks_kbhgn_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "ndks_pmbngnn_mns_hsl_lng_frm_sp2020_mnrt_kbptnkt"
+    },
+    {
+      "table_schema": "api_bps_kondisi_tempat_tinggal",
+      "table_name": "ndks_pmbngnn_mns_mnrt_kbptn"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "gn_rt_mnrt_prvns_dn_drh"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "grs_kmsknn_mknn_rphkptbln_mnrt_prvns_dn_drh"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "grs_kmsknn_mnrt_kbptnkt"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "grs_kmsknn_mnrt_kbptnkt_d_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "grs_kmsknn_nn_mknn_rphkptbln_mnrt_prvns_dn_drh"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "grs_kmsknn_rphkptbln_mnrt_prvns_dn_drh_"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "jmlh_pnddk_mskn_mnrt_kbptnkt_d_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "ndks_kdlmn_kmsknn_p1_mnrt_kbptnkt_d_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "ndks_kdlmn_kmsknn_p1_mnrt_prvns_dn_drh"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "ndks_kprhn_kmsknn_p2_mnrt_kbptnkt_d_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "ndks_kprhn_kmsknn_p2_mnrt_prvns_dn_drh"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "prsnts_pnddk_mskn_mnrt_kbptnkt_d_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_konsumsi_pendapatan",
+      "table_name": "prvlns_ktdkckpn_knsms_pngn"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_bncn_lm_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_bncn_lm_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_krbn_yng_dkbtkn_bncn_lm_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_krbn_yng_dkbtkn_bncn_lm_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_krskn_rmh_yng_dkbtkn_bncn_lm_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_krskn_rmh_yng_dkbtkn_bncn_lm_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "jmlh_prdk_rmh_lngkngn_yng_trgstr_dn_msk_dlm_pngdn_brng_dn_js_pm"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "ls_pntpn_lhn_ndns_d_dlm_dn_d_lr_kwsn_htn_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "ndks_klts_r"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "prprs_lmbh_bhn_brbhy_dn_brcn_b3_yng_dlh_ss_prtrn"
+    },
+    {
+      "table_schema": "api_bps_lingkungan",
+      "table_name": "prsnts_lmbh_cr_ndstr_cr_yng_dlh_scr_mn"
+    },
+    {
+      "table_schema": "api_bps_masyarakat_informasi",
+      "table_name": "bnykny_ds_klrhn_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "lj_prtmbhn_pdb_mnrt_lpngn_sh"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "sr_2010_1_pdrb_ts_dsr_hrg_brlk_mnrt_pnglrn"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "sr_2010_4_lj_prtmbhn_y_n_y_pdrb_ts_dsr_hrg_knstn_mnrt_pnglrn_20"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "sr_2010_pdrb_trwlnn_ts_dsr_hrg_brlk_mnrt_lpngn_sh_d_prvns_slrh_"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "sr_2010_pdrb_ts_dsr_hrg_brlk_mnrt_pnglrn_kbptnkt"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "sr_2010_prtmbhn_knm_mnrt_kbptnkt"
+    },
+    {
+      "table_schema": "api_bps_neraca_ekonomi",
+      "table_name": "sr_2010_prtmbhn_knm_mnrt_sbsktr_lpngn_sh_thnn"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "jmlh_dvs_sktr_prwst"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "jmlh_knjngn_wstwn_mncngr_pr_bln_mnrt_kbngsn_"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "jmlh_prjlnn_wstwn_nsntr_mnrt_prvns_sl"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "jmlh_prjlnn_wstwn_nsntr_mnrt_prvns_tjn"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "rt_rt_lm_mngnp_tm_sng_dn_tm_dlm_ngr_pd_htl_brbntng_d_ndns"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "rt_rt_lm_mngnp_tm_sng_dn_tm_dlm_ngr_pd_htl_nnbntng"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "rt_rt_lm_tnggl_wstwn_mncngr_mnrt_kbngsn"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "rt_rt_pnglrn_wstwn_mncngr_pr_knjngn_mnrt_kbngsn"
+    },
+    {
+      "table_schema": "api_bps_pariwisata",
+      "table_name": "tngkt_pnghnn_kmr_htl"
+    },
+    {
+      "table_schema": "api_bps_pemukiman_perumahan",
+      "table_name": "prsnts_rmh_tngg_yng_mmlk_kss_trhdp_smbr_r_mnm_lyk_mnrt_prvns_dn"
+    },
+    {
+      "table_schema": "api_bps_pemukiman_perumahan",
+      "table_name": "prsts_rmh_tngg_yng_mmlk_kss_trhdp_snts_lyk_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "bnykny_prpstkn_trkrdts_mnrt_kbptn_kt_d_prvns_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "bnykny_prpstkn_trkrdts_mnrt_kbptn_kt_d_prvns_jw_tmr_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "bnykny_prpstkn_trkrdts_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "bnykny_prpstkn_trkrdts_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "hrpn_lm_sklh"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_prgrn_tngg_dsn_mhssw_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_prgrn_tngg_dsn_mhssw_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "mtd_br_rt_rt_lm_sklh"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ndks_pmbngnn_ltrs_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ndks_pmbngnn_ltrs_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ndks_pnddkn"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_hrpn_lm_sklh_hls_mnrt_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_mlk_ksr_mnrt_jns_klmn_d_prvns_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_nk_tdk_sklh_mnrt_jnjng_pnddkn_dn_drh_tmpt_tnggl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_prtsps_mrn_dn_ngk_prtsps_ksr_mnrt_prvns_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_prtsps_mrn_dn_ngk_prtsps_ksr_mnrt_prvns_jw_tmr_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_prtsps_mrn_pm_mnrt_prvns_dn_jnjng_pnddkn"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_prtsps_sklh_ps"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "ngk_prtsps_sklh_ps_mnrt_prvns_dn_klmpk_mr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "prprs_sklh_dngn_kss_kmptr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "prsnts_gr_tk_sd_smp_sm_dn_slb_brsrtfks_pnddk_prsnts_gr_brklfks_"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "prsnts_pnddk_7_24_thn_mnrt_jns_klmn_prvns_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "prsnts_pnddk_7_24_thn_mnrt_jns_klmn_prvns_jw_tmr_cl"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "rt_rt_lm_sklh_rls_mnrt_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "tngkt_kgmrn_mmbc_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr"
+    },
+    {
+      "table_schema": "api_bps_pendidikan",
+      "table_name": "tngkt_kgmrn_mmbc_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr_cl"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr_blnn_mnrt_glngn_brng_stc_"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr_mgs_blnn_mnrt_ngr_tjn"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr_mgs_nnmgs"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr_mnrt_glngn_brng_stc"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_kspr_nnmgs_blnn_mnrt_ngr_tjn"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr_blnn_mnrt_glngn_brng_stc"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr_mgs_blnn_mnrt_ngr_sl"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr_mgs_nnmgs"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr_mnrt_glngn_brng_knm"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "nl_mpr_nnmgs_blnn_mnrt_ngr_sl"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_sktr_knm"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_sktr_knm_23_sktr"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "rlss_nvsts_pnnmn_mdl_lr_ngr_mnrt_ngrwlyhntts_trtnt"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "vlm_kspr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "vlm_kspr_mgs_nnmgs"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "vlm_mpr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn"
+    },
+    {
+      "table_schema": "api_bps_perdagangan_internasional_neraca",
+      "table_name": "vlm_mpr_mgs_nnmgs"
+    },
+    {
+      "table_schema": "api_bps_perlindungan_sosial",
+      "table_name": "jmlh_klrg_pnrm_bntn_dn_nggrn_bntn_ssl_pngn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_perlindungan_sosial",
+      "table_name": "jmlh_klrg_pnrm_bntn_dn_nggrn_bntn_ssl_pngn_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "jmlh_prshn_ndstr_skl_mkr_dn_kcl_mnrt_2_dgt_kbl"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "jmlh_prshn_ndstr_skl_mkr_dn_kcl_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "nl_kspr_blnn_hsl_ndstr_mnrt_kmdts"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "nl_npt_ndstr_skl_mkr_dn_kcl_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "nl_tmbh_hrg_psr_ndstr_skl_mkr_dn_kcl_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "nl_tpt_ndstr_skl_mkr_dn_kcl_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "prtmbhn_prdks_thnn_y_n_y_ndstr_skl_mkr_dn_kcl_mnrt_2_dgt_kbl"
+    },
+    {
+      "table_schema": "api_bps_pertambangan_manufaktur_konstruksi",
+      "table_name": "prtmbhn_prdks_thnn_y_n_y_ndstr_skl_mkr_dn_kcl_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "jmlh_prshn_prkbnn"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "jmlh_prshn_ptrnkn_nggs_mnrt_bdn_hkm_sh"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "jmlh_prshn_sp_prh_mnrt_bdn_hkmsh"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_kwsn_htn_dn_prrn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_kwsn_htn_dn_prrn_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_lhn_swh"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_pnn_pd_mnrt_prvns_blnn"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_pnn_prdks_dn_prdktvts_pd_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_pnn_prdktvts_dn_prdks_pd_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "ls_pnn_prdktvts_dn_prdks_pd_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "nl_kspr_blnn_hsl_prtnn_mnrt_kmdts_"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "prdks_pd_dn_brs_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "prdks_pd_dn_brs_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "prdks_pd_mnrt_prvns_blnn"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "prdks_prknn_bddy_mnrt_kmdts_tm"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "prdks_tlr_ym_brs_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_pertanian_kehutanan_perikanan",
+      "table_name": "prdktvts"
+    },
+    {
+      "table_schema": "api_bps_statistik_bisnis",
+      "table_name": "sbrn_psr_dn_pst_prdgngn_mnrt_klsfks"
+    },
+    {
+      "table_schema": "api_bps_statistik_bisnis",
+      "table_name": "sbrn_psr_rkyt_mnrt_jns_bngnn"
+    },
+    {
+      "table_schema": "api_bps_statistik_bisnis",
+      "table_name": "sbrn_psr_rkyt_mnrt_klmpk_kmdts_tm"
+    },
+    {
+      "table_schema": "api_bps_statistik_bisnis",
+      "table_name": "sbrn_tk_swlyn_mnrt_klmpk_kmdts_tm"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "bnykny_dsklrhn_mnrt_kbrdn_klrg_pnggn_lstrk"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "bnykny_dsklrhn_mnrt_kbrdn_prmkmn_kmh"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "bnykny_dsklrhn_mnrt_ktrsdn_lpngn_lhrg"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "bnykny_dsklrhn_mnrt_pnggnn_fslts_tmpt_bng_r_bsr_sbgn_bsr_klrg"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "bnykny_dsklrhn_mnrt_py_ntspsmtgs_bncn_lm"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "jmlh_ds_klrhn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "jmlh_kcmtn_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "ls_drh_dn_jmlh_pl_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_statistik_regional_statistik",
+      "table_name": "ls_drh_dn_jmlh_pl_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "jmlh_dn_prsnts_pnddk_bkrj_dn_pngnggrn"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "jmlh_pnddk_mnrt_stts_pkrjn_dn_jk"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "jmlh_tng_krj_ndstr_skl_mkr_dn_kcl_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_kbptn_kt"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_kbptn_kt_cl"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "pngnggrn_mnrt_glngn_mr"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "pngnggrn_trbk_mnrt_pnddkn_trtngg_yng_dtmtkn"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "prdktvts_tng_krj"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "prprs_lpngn_krj_nfrml_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "prsnts_tng_krj_frml_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "tngkt_pngnggrn_trbk_brdsrkn_tngkt_pnddkn"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "tngkt_pngnggrn_trbk_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "tngkt_pngnggrn_trbk_tpt_mnrt_kbptnkt"
+    },
+    {
+      "table_schema": "api_bps_tenaga_kerja",
+      "table_name": "tngkt_prtsps_ngktn_krj_tpk_mnrt_kbptnkt_dn_jns_klmn"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "jmlh_bndr_d_ndns_mnrt_pnggnn_bndr_dr_"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "jmlh_plbhn_pnybrngn_d_ndns"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "knds_mntp_jln_nsnl"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "pnjng_jln_mnrt_jns_prmkn"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "pnjng_jln_mnrt_prvns"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "pnjng_jln_mnrt_prvns_cl"
+    },
+    {
+      "table_schema": "api_bps_transportasi",
+      "table_name": "pnjng_jln_mnrt_tngkt_kwnngn"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "audit_log_entries"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "custom_oauth_providers"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "flow_state"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "identities"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "instances"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "mfa_amr_claims"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "mfa_challenges"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "mfa_factors"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "oauth_authorizations"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "oauth_client_states"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "oauth_clients"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "oauth_consents"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "one_time_tokens"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "refresh_tokens"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "saml_providers"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "saml_relay_states"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "schema_migrations"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "sessions"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "sso_domains"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "sso_providers"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "users"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "webauthn_challenges"
+    },
+    {
+      "table_schema": "auth",
+      "table_name": "webauthn_credentials"
+    },
+    {
+      "table_schema": "information_schema",
+      "table_name": "sql_features"
+    },
+    {
+      "table_schema": "information_schema",
+      "table_name": "sql_implementation_info"
+    },
+    {
+      "table_schema": "information_schema",
+      "table_name": "sql_parts"
+    },
+    {
+      "table_schema": "information_schema",
+      "table_name": "sql_sizing"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_aggregate"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_am"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_amop"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_amproc"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_attrdef"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_attribute"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_auth_members"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_authid"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_cast"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_class"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_collation"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_constraint"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_conversion"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_database"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_db_role_setting"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_default_acl"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_depend"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_description"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_enum"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_event_trigger"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_extension"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_foreign_data_wrapper"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_foreign_server"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_foreign_table"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_index"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_inherits"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_init_privs"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_language"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_largeobject"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_largeobject_metadata"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_namespace"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_opclass"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_operator"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_opfamily"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_parameter_acl"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_partitioned_table"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_policy"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_proc"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_publication"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_publication_namespace"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_publication_rel"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_range"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_replication_origin"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_rewrite"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_seclabel"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_sequence"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_shdepend"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_shdescription"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_shseclabel"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_statistic"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_statistic_ext"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_statistic_ext_data"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_subscription"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_subscription_rel"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_tablespace"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_transform"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_trigger"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_ts_config"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_ts_config_map"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_ts_dict"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_ts_parser"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_ts_template"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_type"
+    },
+    {
+      "table_schema": "pg_catalog",
+      "table_name": "pg_user_mapping"
+    },
+    {
+      "table_schema": "realtime",
+      "table_name": "messages"
+    },
+    {
+      "table_schema": "realtime",
+      "table_name": "schema_migrations"
+    },
+    {
+      "table_schema": "realtime",
+      "table_name": "subscription"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "buckets"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "buckets_analytics"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "buckets_vectors"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "migrations"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "objects"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "s3_multipart_uploads"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "s3_multipart_uploads_parts"
+    },
+    {
+      "table_schema": "storage",
+      "table_name": "vector_indexes"
+    },
+    {
+      "table_schema": "vault",
+      "table_name": "secrets"
+    }
+  ]

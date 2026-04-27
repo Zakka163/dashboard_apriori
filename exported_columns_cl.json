@@ -1,0 +1,1972 @@
+{
+  "api_bps_hortikultura_khutanan_perikanan.prdks_prkbnn_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_hortikultura_perkebunan_peternakan.jmlh_prdks_dgng_sp_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_hortikultura_perkebunan_peternakan.ppls_nggs_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_hortikultura_perkebunan_peternakan.ppls_trnk_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_hortikultura_perkebunan_peternakan.prdks_dgng_nggs_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_hortikultura_perkebunan_peternakan.prdks_tlr_nggs_dn_ss_sp_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.jmlh_pnddk_mnrt_klmpk_mr_dn_jns_klmn_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kelompok_umur",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.jmlh_prcrn_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.jmlh_prcrn_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.lj_prtmbhn_dn_kpdtn_pnddk_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.lj_prtmbhn_dn_kpdtn_pnddk_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.nkh_dn_cr_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kependudukan_migrasi.nkh_dn_cr_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_ds_klrhn_yng_mmlk_srn_kshtn_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_kss_pnykt_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_kss_pnykt_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_rmh_skt_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_rmh_skt_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_tng_kshtn_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.jmlh_tng_kshtn_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kesehatan.prsts_pnddk_yg_mmlk_jmn_kshtn_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_ngr_spl_mnrt_jbtn_dn_jns_klmn_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "jabatan",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_ngr_spl_mnrt_tngkt_kpngktn_dn_jns_klmn_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "pangkatgolonganruang",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_pmrnth_dngn_prjnjn_krj_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "pangkatgolonganruang",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.jmlh_prtr_spl_ngr_sn_mnrt_jbtn_jns_sn_dn_jns_klmn_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "jabatan",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.jmlh_prtr_spl_ngr_sn_mnrt_tngkt_pnddkn_jns_sn_dn_jns_klmn_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "tingkat_pendidikan",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_kbptn_kt_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_kondisi_tempat_tinggal.jmlh_dn_prsnts_pnddk_mskn_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_lingkungan.jmlh_bncn_lm_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_lingkungan.jmlh_krbn_yng_dkbtkn_bncn_lm_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_lingkungan.jmlh_krskn_rmh_yng_dkbtkn_bncn_lm_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_masyarakat_informasi.bnykny_ds_klrhn_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.bnykny_prpstkn_trkrdts_mnrt_kbptn_kt_d_prvns_jw_tmr_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.bnykny_prpstkn_trkrdts_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_prgrn_tngg_dsn_mhssw_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_prgrn_tngg_dsn_mhssw_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.ndks_pmbngnn_ltrs_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.ngk_prtsps_mrn_dn_ngk_prtsps_ksr_mnrt_prvns_jw_tmr_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "tingkat_pendidikan",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.prsnts_pnddk_7_24_thn_mnrt_jns_klmn_prvns_jw_tmr_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "jenis_kelamin_dan_kelompok_umur_sekolah",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pendidikan.tngkt_kgmrn_mmbc_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "text"
+    }
+  ],
+  "api_bps_perlindungan_sosial.jmlh_klrg_pnrm_bntn_dn_nggrn_bntn_ssl_pngn_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pertanian_kehutanan_perikanan.ls_kwsn_htn_dn_prrn_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pertanian_kehutanan_perikanan.ls_pnn_prdktvts_dn_prdks_pd_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_pertanian_kehutanan_perikanan.prdks_pd_dn_brs_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_statistik_regional_statistik.ls_drh_dn_jmlh_pl_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "text"
+    }
+  ],
+  "api_bps_tenaga_kerja.pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_kbptn_kt_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "kabupatenkota",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_tenaga_kerja.pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "api_bps_transportasi.pnjng_jln_mnrt_prvns_cl": [
+    {
+      "column": "id",
+      "type": "bigint"
+    },
+    {
+      "column": "id_kategori",
+      "type": "bigint"
+    },
+    {
+      "column": "tahun",
+      "type": "bigint"
+    },
+    {
+      "column": "provinsi",
+      "type": "text"
+    },
+    {
+      "column": "kategori",
+      "type": "text"
+    },
+    {
+      "column": "jumlah",
+      "type": "double precision"
+    }
+  ],
+  "auth.mfa_amr_claims": [
+    {
+      "column": "session_id",
+      "type": "uuid"
+    },
+    {
+      "column": "created_at",
+      "type": "timestamp with time zone"
+    },
+    {
+      "column": "updated_at",
+      "type": "timestamp with time zone"
+    },
+    {
+      "column": "authentication_method",
+      "type": "text"
+    },
+    {
+      "column": "id",
+      "type": "uuid"
+    }
+  ],
+  "auth.oauth_client_states": [
+    {
+      "column": "id",
+      "type": "uuid"
+    },
+    {
+      "column": "provider_type",
+      "type": "text"
+    },
+    {
+      "column": "code_verifier",
+      "type": "text"
+    },
+    {
+      "column": "created_at",
+      "type": "timestamp with time zone"
+    }
+  ],
+  "auth.oauth_clients": [
+    {
+      "column": "id",
+      "type": "uuid"
+    },
+    {
+      "column": "client_secret_hash",
+      "type": "text"
+    },
+    {
+      "column": "registration_type",
+      "type": "USER-DEFINED"
+    },
+    {
+      "column": "redirect_uris",
+      "type": "text"
+    },
+    {
+      "column": "grant_types",
+      "type": "text"
+    },
+    {
+      "column": "client_name",
+      "type": "text"
+    },
+    {
+      "column": "client_uri",
+      "type": "text"
+    },
+    {
+      "column": "logo_uri",
+      "type": "text"
+    },
+    {
+      "column": "created_at",
+      "type": "timestamp with time zone"
+    },
+    {
+      "column": "updated_at",
+      "type": "timestamp with time zone"
+    },
+    {
+      "column": "deleted_at",
+      "type": "timestamp with time zone"
+    },
+    {
+      "column": "client_type",
+      "type": "USER-DEFINED"
+    },
+    {
+      "column": "token_endpoint_auth_method",
+      "type": "text"
+    }
+  ],
+  "pg_catalog.pg_class": [
+    {
+      "column": "oid",
+      "type": "oid"
+    },
+    {
+      "column": "relname",
+      "type": "name"
+    },
+    {
+      "column": "relnamespace",
+      "type": "oid"
+    },
+    {
+      "column": "reltype",
+      "type": "oid"
+    },
+    {
+      "column": "reloftype",
+      "type": "oid"
+    },
+    {
+      "column": "relowner",
+      "type": "oid"
+    },
+    {
+      "column": "relam",
+      "type": "oid"
+    },
+    {
+      "column": "relfilenode",
+      "type": "oid"
+    },
+    {
+      "column": "reltablespace",
+      "type": "oid"
+    },
+    {
+      "column": "relpages",
+      "type": "integer"
+    },
+    {
+      "column": "reltuples",
+      "type": "real"
+    },
+    {
+      "column": "relallvisible",
+      "type": "integer"
+    },
+    {
+      "column": "reltoastrelid",
+      "type": "oid"
+    },
+    {
+      "column": "relhasindex",
+      "type": "boolean"
+    },
+    {
+      "column": "relisshared",
+      "type": "boolean"
+    },
+    {
+      "column": "relpersistence",
+      "type": "\"char\""
+    },
+    {
+      "column": "relkind",
+      "type": "\"char\""
+    },
+    {
+      "column": "relnatts",
+      "type": "smallint"
+    },
+    {
+      "column": "relchecks",
+      "type": "smallint"
+    },
+    {
+      "column": "relhasrules",
+      "type": "boolean"
+    },
+    {
+      "column": "relhastriggers",
+      "type": "boolean"
+    },
+    {
+      "column": "relhassubclass",
+      "type": "boolean"
+    },
+    {
+      "column": "relrowsecurity",
+      "type": "boolean"
+    },
+    {
+      "column": "relforcerowsecurity",
+      "type": "boolean"
+    },
+    {
+      "column": "relispopulated",
+      "type": "boolean"
+    },
+    {
+      "column": "relreplident",
+      "type": "\"char\""
+    },
+    {
+      "column": "relispartition",
+      "type": "boolean"
+    },
+    {
+      "column": "relrewrite",
+      "type": "oid"
+    },
+    {
+      "column": "relfrozenxid",
+      "type": "xid"
+    },
+    {
+      "column": "relminmxid",
+      "type": "xid"
+    },
+    {
+      "column": "relacl",
+      "type": "ARRAY"
+    },
+    {
+      "column": "reloptions",
+      "type": "ARRAY"
+    },
+    {
+      "column": "relpartbound",
+      "type": "pg_node_tree"
+    }
+  ]
+}

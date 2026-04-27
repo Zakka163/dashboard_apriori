@@ -1,0 +1,947 @@
+[
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.mtd_br_rt_rt_lm_sklh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.prsnts_gr_tk_sd_smp_sm_dn_slb_brsrtfks_pnddk_prsnts_gr_brklfks_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_lhn_swh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ndks_pnddkn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.prdktvts LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.jmlh_prjlnn_wstwn_nsntr_mnrt_prvns_tjn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.jmlh_knjngn_wstwn_mncngr_pr_bln_mnrt_kbngsn_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.rt_rt_lm_mngnp_tm_sng_dn_tm_dlm_ngr_pd_htl_brbntng_d_ndns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.jmlh_prjlnn_wstwn_nsntr_mnrt_prvns_sl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.mgrs_smr_hdp LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.bnykny_dsklrhn_mnrt_py_ntspsmtgs_bncn_lm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.tngkt_pngnggrn_trbk_tpt_mnrt_kbptnkt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_blnn_m_t_m_38_prvns_2022100 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.jmlh_plbhn_pnybrngn_d_ndns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.rt_rt_lm_tnggl_wstwn_mncngr_mnrt_kbngsn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.bnykny_rmh_tngg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_thn_k_thn_y__y LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_sktr_knm_23_sktr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.lj_prtmbhn_dn_kpdtn_pnddk_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_thnn_y_n_y_38_prvns_2022100 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.jmlh_bndr_d_ndns_mnrt_pnggnn_bndr_dr_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_tng_kshtn_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.lj_prtmbhn_dn_kpdtn_pnddk_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.rt_rt_pnglrn_wstwn_mncngr_pr_knjngn_mnrt_kbngsn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.dpndncy_rt_hsl_pryks_pnddk LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.nkh_dn_cr_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_thn_klndr_y_t_d_150_kbptnkt_2022100 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.grs_kmsknn_mnrt_kbptnkt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_hrg_mpr_2023100_y_n_y LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pemukiman_perumahan.prsnts_rmh_tngg_yng_mmlk_kss_trhdp_smbr_r_mnm_lyk_mnrt_prvns_dn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_tng_kshtn_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.rt_rt_lm_mngnp_tm_sng_dn_tm_dlm_ngr_pd_htl_nnbntng LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.prsnts_pnddk_yng_brprgn_dngn_jrk_100_km_pp_mnrt_wlyh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.nkh_dn_cr_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.tngkt_pnghnn_kmr_htl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.prprs_pnddk_50_thn_k_ts LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.sr_2010_pdrb_ts_dsr_hrg_brlk_mnrt_pnglrn_kbptnkt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_biaya_tenaga_kerja.ph_mnmm_rgnlprpns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_rmh_skt_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pariwisata.jmlh_dvs_sktr_prwst LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_rmh_skt_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.rs_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.sr_2010_1_pdrb_ts_dsr_hrg_brlk_mnrt_pnglrn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_hrg_kspr_2023100_y_n_y LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.bnykny_dsklrhn_mnrt_pnggnn_fslts_tmpt_bng_r_bsr_sbgn_bsr_klrg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_sktr_knm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_kss_pnykt_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_kss_pnykt_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nl_tkr_ptn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.kpdtn_pnddk_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.sr_2010_pdrb_trwlnn_ts_dsr_hrg_brlk_mnrt_lpngn_sh_d_prvns_slrh_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.vlm_kspr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_hrg_prdsn_y_n_y_2016100 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.rs_lktrfks LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.pnjng_jln_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.pnjng_jln_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.pnjng_jln_mnrt_jns_prmkn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.kpsts_trpsng_pln_mnrt_jns_pmbngkt_lstrk LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.nl_kspr_blnn_hsl_prtnn_mnrt_kmdts_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.ndks_klts_r LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_masyarakat_informasi.bnykny_ds_klrhn_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_kwsn_htn_dn_prrn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_kwsn_htn_dn_prrn_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.sr_2010_4_lj_prtmbhn_y_n_y_pdrb_ts_dsr_hrg_knstn_mnrt_pnglrn_20 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.pnjng_jln_mnrt_tngkt_kwnngn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.kpsts_trpsng_pmbngkt_lstrk_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.plnggn_prshn_lstrk_ngr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.ndks_pmbngnn_mns_mnrt_kbptn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pemukiman_perumahan.prsts_rmh_tngg_yng_mmlk_kss_trhdp_snts_lyk_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perlindungan_sosial.jmlh_klrg_pnrm_bntn_dn_nggrn_bntn_ssl_pngn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perlindungan_sosial.jmlh_klrg_pnrm_bntn_dn_nggrn_bntn_ssl_pngn_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.sr_2010_prtmbhn_knm_mnrt_sbsktr_lpngn_sh_thnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.jmlh_dn_prsnts_pnddk_mskn_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.jmlh_dn_prsnts_pnddk_mskn_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_prtr_spl_ngr_sn_mnrt_jbtn_jns_sn_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.prprs_lmbh_bhn_brbhy_dn_brcn_b3_yng_dlh_ss_prtrn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.rlss_nvsts_pnnmn_mdl_lr_ngr_mnrt_ngrwlyhntts_trtnt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.vlm_mpr_jw_tmr_mnrt_ktgr_mgs_dn_nn_mgs_blnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_prtr_spl_ngr_sn_mnrt_jbtn_jns_sn_dn_jns_klmn_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_ngr_spl_mnrt_jbtn_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_ngr_spl_mnrt_jbtn_dn_jns_klmn_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.prdks_pd_dn_brs_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.prdks_pd_dn_brs_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_khutanan_perikanan.prdks_prkbnn_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_khutanan_perikanan.prdks_prkbnn_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.ppls_trnk_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.ppls_trnk_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.prdks_tlr_ym_brs_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.ls_pntpn_lhn_ndns_d_dlm_dn_d_lr_kwsn_htn_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_bncn_lm_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_bncn_lm_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.prdks_prknn_bddy_mnrt_kmdts_tm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_krskn_rmh_yng_dkbtkn_bncn_lm_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_prdk_rmh_lngkngn_yng_trgstr_dn_msk_dlm_pngdn_brng_dn_js_pm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_blnn_m_t_m LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_transportasi.knds_mntp_jln_nsnl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.bnykny_dsklrhn_mnrt_kbrdn_klrg_pnggn_lstrk LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.ndktr_pntng_prshn_lstrk LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_krskn_rmh_yng_dkbtkn_bncn_lm_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_krbn_yng_dkbtkn_bncn_lm_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.jmlh_krbn_yng_dkbtkn_bncn_lm_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_kbptn_kt_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_kbptn_kt_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_pmrnth_dngn_prjnjn_krj LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_pmrnth_dngn_prjnjn_krj_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_ngr_spl_mnrt_tngkt_kpngktn_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_pgw_ngr_spl_mnrt_tngkt_kpngktn_dn_jns_klmn_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_prtr_spl_ngr_sn_mnrt_tngkt_pnddkn_jns_sn_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.jmlh_prtr_spl_ngr_sn_mnrt_tngkt_pnddkn_jns_sn_dn_jns_klmn_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_tng_kshtn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_tng_kshtn_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_ds_klrhn_yng_mmlk_srn_kshtn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_ds_klrhn_yng_mmlk_srn_kshtn_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_kss_pnykt_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_kss_pnykt_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_rmh_skt_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.jmlh_rmh_skt_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prsts_pnddk_yg_mmlk_jmn_kshtn_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prnts_wnt_yng_brstts_kwn_dn_mnggnkn_kb_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.nkh_dn_cr_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.nkh_dn_cr_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.lj_prtmbhn_dn_kpdtn_pnddk_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.lj_prtmbhn_dn_kpdtn_pnddk_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.jmlh_pnddk_mnrt_klmpk_mr_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.jmlh_pnddk_mnrt_klmpk_mr_dn_jns_klmn_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.jmlh_prcrn_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.jmlh_prcrn_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.jmlh_prcrn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kependudukan_migrasi.jmlh_prcrn_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.jmlh_ds_klrhn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.ls_drh_dn_jmlh_pl_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_pnn_prdks_dn_prdktvts_pd_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.ls_drh_dn_jmlh_pl_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.jmlh_kcmtn_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.prdks_bh_dn_syrn_thnn_mnrt_jns_tnmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_pnn_prdktvts_dn_prdks_pd_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_pnn_prdktvts_dn_prdks_pd_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.prdks_tlr_nggs_dn_ss_sp_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.prdks_tlr_nggs_dn_ss_sp_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.prdks_dgng_nggs_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.prdks_dgng_nggs_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.jmlh_prdks_dgng_kmbng_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.jmlh_prdks_dgng_sp_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.jmlh_prdks_dgng_sp_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.ppls_nggs_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_hortikultura_perkebunan_peternakan.ppls_nggs_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_dn_blnj_pmrnth_ds_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rkptls_rlss_pnrmn_dn_pnglrn_pmrnth_drh_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.ls_pnn_pd_mnrt_prvns_blnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.prsnts_pnddk_7_24_thn_mnrt_jns_klmn_prvns_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.prsnts_pnddk_7_24_thn_mnrt_jns_klmn_prvns_jw_tmr_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_prgrn_tngg_dsn_mhssw_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_ds_klrhn_yng_mmlk_fslts_sklh_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_prtsps_mrn_dn_ngk_prtsps_ksr_mnrt_prvns_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_prtsps_mrn_dn_ngk_prtsps_ksr_mnrt_prvns_jw_tmr_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.bnykny_prpstkn_trkrdts_mnrt_kbptn_kt_d_prvns_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.bnykny_prpstkn_trkrdts_mnrt_kbptn_kt_d_prvns_jw_tmr_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.bnykny_prpstkn_trkrdts_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.bnykny_prpstkn_trkrdts_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_mlk_ksr_mnrt_jns_klmn_d_prvns_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.tngkt_kgmrn_mmbc_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.tngkt_kgmrn_mmbc_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ndks_pmbngnn_ltrs_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ndks_pmbngnn_ltrs_msyrkt_mnrt_kbptn_kt_d_prvns_jw_tmr_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_kjrn_smk_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_ts_sma_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_mnngh_prtm_smp_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_sklh_dsr_sd_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_lyh_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_tsnwyh_mts_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_sklh_gr_dn_mrd_mdrsh_btdyh_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.jmlh_prgrn_tngg_dsn_mhssw_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_kbptn_kt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_kbptn_kt_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.pncr_krj_lwngn_krj_dn_pnmptn_trdftr_mnrt_prvns_cl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prsnts_nk_mr_12_23_bln_yng_mnrm_mnss_dsr_lngkp_dngn_tngkt_ksjht LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.ngk_hrpn_hdp_hh_mnrt_prvns_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.ndks_kshtn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prsnts_nk_mr_12_23_bln_yng_mnrm_mnss_dsr_lngkp_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prvlns_blt_gz_brk_mnrt_prvns_d_ndns_psg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.mnss LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prsnts_kbptn_kt_yng_mncp_80_mnss_dsr_lngkp_pd_by LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.fslts_kshtn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.ngk_kmtn_by_kb_pr_1000_klhrn_hdp_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.rt_rt_lm_sklh_rls_mnrt_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_hrpn_lm_sklh_hls_mnrt_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_prtsps_sklh_ps_mnrt_prvns_dn_klmpk_mr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_nk_tdk_sklh_mnrt_jnjng_pnddkn_dn_drh_tmpt_tnggl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.prprs_sklh_dngn_kss_kmptr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_prtsps_mrn_pm_mnrt_prvns_dn_jnjng_pnddkn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.ngk_prtsps_sklh_ps LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.prdks_pd_mnrt_prvns_blnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_lingkungan.prsnts_lmbh_cr_ndstr_cr_yng_dlh_scr_mn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.sr_2010_prtmbhn_knm_mnrt_kbptnkt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_harga_harga.nfls_mnrt_klmpk_pnglrn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.bnykny_dsklrhn_mnrt_ktrsdn_lpngn_lhrg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_regional_statistik.bnykny_dsklrhn_mnrt_kbrdn_prmkmn_kmh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.ndktr_pntng_prshn_r_brsh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.kpsts_prdks_ptnsl_prshn_r_brsh_mnrt_prvns_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.nl_r_brsh_yng_dslrkn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.jmlh_r_brsh_yng_dslrkn_prshn_r_brsh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_energi.jmlh_plnggn_prshn_r_brsh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pndptn_ngr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnglrn_pmrnth_prvns_slrh_ndns_mnrt_jns_pnglrn_rncn_2022 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnrmn_pmrnth_prvns_slrh_ndns_mnrt_jns_pnrmn_rncn_2022 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.pnglrn_ntk_lynn_pkk_pnddkn_kshtn_dn_prlndngn_ssl_sbg_prsnts_dr_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.prprs_rlss_pndptn_pmrnth_trhdp_prdk_dmstk_brt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.prprs_pnglrn_tm_pmrnth_trhdp_nggrn_yng_dstj LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.prprs_nggrn_rst_pmrnth_trhdp_pdb LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnglrn_ngr_kngn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnrmn_pmrnth_kbptnkt_slrh_ndns_mnrt_jns_pnrmn_rncn_2022 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnglrn_pmrnth_kbptnkt_slrh_ndns_mnrt_jns_pnglrn_rncn_2022 LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnrmn_dn_pnglrn_pmrnth_ds_slrh_ndns_frmt_br LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.tbl_nggrn_blnj_pmrnth_pst_brdsrkn_fngs LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_pnrmn_pmrnth_kbptnkt_slrh_ndns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_lks_jmlh_pryk LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_keuangan_pemerintah_fiskal.rlss_nvsts_pnnmn_mdl_dlm_ngr_mnrt_lks_jmlh_nvsts LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_bisnis.sbrn_psr_rkyt_mnrt_klmpk_kmdts_tm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_bisnis.sbrn_psr_dn_pst_prdgngn_mnrt_klsfks LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_bisnis.sbrn_tk_swlyn_mnrt_klmpk_kmdts_tm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr_mnrt_glngn_brng_stc LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.tngkt_pngnggrn_trbk_brdsrkn_tngkt_pnddkn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.prsnts_tng_krj_frml_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.prprs_lpngn_krj_nfrml_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.nl_kspr_blnn_hsl_ndstr_mnrt_kmdts LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.tngkt_pngnggrn_trbk_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.pngnggrn_trbk_mnrt_pnddkn_trtngg_yng_dtmtkn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.pngnggrn_mnrt_glngn_mr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr_mgs_blnn_mnrt_ngr_sl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr_nnmgs_blnn_mnrt_ngr_sl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr_mgs_blnn_mnrt_ngr_tjn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr_nnmgs_blnn_mnrt_ngr_tjn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr_blnn_mnrt_glngn_brng_stc LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr_mnrt_glngn_brng_knm LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr_blnn_mnrt_glngn_brng_stc_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.vlm_mpr_mgs_nnmgs LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_mpr_mgs_nnmgs LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.vlm_kspr_mgs_nnmgs LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_perdagangan_internasional_neraca.nl_kspr_mgs_nnmgs LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.jmlh_prshn_ndstr_skl_mkr_dn_kcl_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.jmlh_tng_krj_ndstr_skl_mkr_dn_kcl_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.jmlh_prshn_sp_prh_mnrt_bdn_hkmsh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.jmlh_prshn_ptrnkn_nggs_mnrt_bdn_hkm_sh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertanian_kehutanan_perikanan.jmlh_prshn_prkbnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.prdktvts_tng_krj LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_neraca_ekonomi.lj_prtmbhn_pdb_mnrt_lpngn_sh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.prtmbhn_prdks_thnn_y_n_y_ndstr_skl_mkr_dn_kcl_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.prtmbhn_prdks_thnn_y_n_y_ndstr_skl_mkr_dn_kcl_mnrt_2_dgt_kbl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.jmlh_prshn_ndstr_skl_mkr_dn_kcl_mnrt_2_dgt_kbl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.nl_tmbh_hrg_psr_ndstr_skl_mkr_dn_kcl_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.nl_tpt_ndstr_skl_mkr_dn_kcl_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pertambangan_manufaktur_konstruksi.nl_npt_ndstr_skl_mkr_dn_kcl_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.tngkt_prtsps_ngktn_krj_tpk_mnrt_kbptnkt_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.jmlh_pnddk_mnrt_stts_pkrjn_dn_jk LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_tenaga_kerja.jmlh_dn_prsnts_pnddk_bkrj_dn_pngnggrn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.ngk_hrpn_hdp_hh_mnrt_kbptnkt_dn_jns_klmn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_statistik_bisnis.sbrn_psr_rkyt_mnrt_jns_bngnn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.ndks_kbhgn_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.dmns_mkn_hdp_ndks_kbhgn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.ndks_khss_pnngnn_stntng_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.dmns_kpsn_hdp_ndks_kbhgn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prsnts_nk_mr_0_59_bln_blt_yng_prnh_mndpt_mnss_cmpk_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.mtd_br_ndks_pmbngnn_mns_pm_mnrt_prvns LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_gender_kelompok_populasi.ndks_pmbngnn_gndr_pg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_gender_kelompok_populasi.ndks_pmbrdyn_gndr_dg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.grs_kmsknn_mnrt_kbptnkt_d_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.prvlns_ktdkckpn_knsms_pngn LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.ndks_pmbngnn_mns_hsl_lng_frm_sp2020_mnrt_kbptnkt LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.ndks_dmkrs_ndns_d_mnrt_ndktr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kondisi_tempat_tinggal.ndks_dmkrs_ndns_d_mnrt_vrbl LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.gn_rt_mnrt_prvns_dn_drh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.ndks_kdlmn_kmsknn_p1_mnrt_prvns_dn_drh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.ndks_kprhn_kmsknn_p2_mnrt_prvns_dn_drh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.grs_kmsknn_mknn_rphkptbln_mnrt_prvns_dn_drh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.grs_kmsknn_nn_mknn_rphkptbln_mnrt_prvns_dn_drh LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.grs_kmsknn_rphkptbln_mnrt_prvns_dn_drh_ LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.ndks_kdlmn_kmsknn_p1_mnrt_kbptnkt_d_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.ndks_kprhn_kmsknn_p2_mnrt_kbptnkt_d_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.prsnts_pnddk_mskn_mnrt_kbptnkt_d_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_konsumsi_pendapatan.jmlh_pnddk_mskn_mnrt_kbptnkt_d_jw_tmr LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_kesehatan.prvlns_blt_gz_krng_mnrt_prvns_d_ndns_psg LIMIT 5;"
+    },
+    {
+      "query": "SELECT * FROM api_bps_pendidikan.hrpn_lm_sklh LIMIT 5;"
+    }
+  ]
